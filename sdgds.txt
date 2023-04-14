@@ -1,0 +1,6 @@
+Scaffold-DbContext "Server= HarComp;Database= InternetShop;Integrated Security= True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "Server= ИМЯ_СЕРВЕРА ;Database= ИМЯ_БД ;User
+Id= ИМЯ_ПОЛЬЗОВАТЕЛЯ ;Password= ПАРОЛЬ_ДЛЯ_ВХОДА ;" Microsoft.EntityFrameworkCore.SqlServer
+-OutputDir Models
+
+Add-migration InternetShopMigration -Context InternetShopContext -Project DataAccess -StartupProject BackendApi
