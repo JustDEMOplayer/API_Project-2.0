@@ -20,6 +20,14 @@ namespace BusinessLogic.Services
 
         public async Task Create(Order model)
         {
+            if (model == null) throw new ArgumentNullException(nameof(model));
+
+            if (model.FullCost <= 0) throw new ArgumentException(nameof(model.FullCost));
+
+            if (string.IsNullOrWhiteSpace(model.DeliveryMethod) || int.TryParse(model.DeliveryMethod, out _) || model.DeliveryMethod.Length < 3) throw new ArgumentException(nameof(model.DeliveryMethod));
+
+            if (string.IsNullOrWhiteSpace(model.Status) || int.TryParse(model.Status, out _) || model.Status.Length < 3) throw new ArgumentException(nameof(model.Status));
+
             await _repositoryWrapper.Order.Create(model);
             await _repositoryWrapper.Save();
         }

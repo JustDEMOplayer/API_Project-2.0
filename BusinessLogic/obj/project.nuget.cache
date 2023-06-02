@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/cQCjHN07Kh317Y4oohdR+5cvESgy0FYWokf6ggKIOxaBF4WYcP9PwN3NzdYTqNc0sOhvSyFgnPkWK34Fn8N7A==",
+  "dgSpecHash": "cEuMlOl+8bm/wF4Eg10jwzbgi6Kvgg/iBbK155aAuSyuD0BQIp+GQQQBM6vYTLJSAoxS+MzoBXDx1BRSfUWCiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\API_project_2.0\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "F:\\Проект(практика)\\API_Project-2.0-main\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

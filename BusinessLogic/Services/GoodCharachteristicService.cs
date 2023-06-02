@@ -20,6 +20,8 @@ namespace BusinessLogic.Services
 
         public async Task Create(GoodCharachteristic model)
         {
+            if (model == null) throw new ArgumentNullException(nameof(model));
+
             await _repositoryWrapper.GoodCharachteristic.Create(model);
             await _repositoryWrapper.Save();
         }

@@ -20,6 +20,10 @@ namespace BusinessLogic.Services
 
         public async Task Create(Cart model)
         {
+            if (model == null) throw new ArgumentNullException(nameof(model));
+
+            if (model.Count < 1) throw new ArgumentException(nameof(model.Count));
+
             await _repositoryWrapper.Cart.Create(model);
             await _repositoryWrapper.Save();
         }

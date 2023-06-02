@@ -20,6 +20,10 @@ namespace BusinessLogic.Services
 
         public async Task Create(Category model)
         {
+            if (model == null) throw new ArgumentNullException(nameof(model));
+
+            if (string.IsNullOrWhiteSpace(model.Name) || model.Name.Length < 3 || int.TryParse(model.Name, out _)) throw new ArgumentException(nameof(model.Name));
+
             await _repositoryWrapper.Category.Create(model);
             await _repositoryWrapper.Save();
         }
