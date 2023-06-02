@@ -3007,11 +3007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\API_project_2.0\\BackendAPI\\BackendAPI.csproj",
+      "projectUniqueName": "F:\\Проект(практика)\\API_Project-2.0-main\\BackendAPI\\BackendAPI.csproj",
       "projectName": "BackendAPI",
-      "projectPath": "C:\\Users\\user\\Desktop\\API_project_2.0\\BackendAPI\\BackendAPI.csproj",
+      "projectPath": "F:\\Проект(практика)\\API_Project-2.0-main\\BackendAPI\\BackendAPI.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\API_project_2.0\\BackendAPI\\obj\\",
+      "outputPath": "F:\\Проект(практика)\\API_Project-2.0-main\\BackendAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\Shared\\NuGetPackages"
@@ -3032,11 +3032,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\API_project_2.0\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\API_project_2.0\\BusinessLogic\\BusinessLogic.csproj"
+            "F:\\Проект(практика)\\API_Project-2.0-main\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "F:\\Проект(практика)\\API_Project-2.0-main\\BusinessLogic\\BusinessLogic.csproj"
             },
-            "C:\\Users\\user\\Desktop\\API_project_2.0\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\API_project_2.0\\DataAccess\\DataAccess.csproj"
+            "F:\\Проект(практика)\\API_Project-2.0-main\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "F:\\Проект(практика)\\API_Project-2.0-main\\DataAccess\\DataAccess.csproj"
             }
           }
         }

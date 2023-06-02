@@ -24,7 +24,7 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 
 builder.Services.AddSwaggerGen(options =>
 {
-    options.SwaggerDoc("v2", new OpenApiInfo
+    options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "Version 2.0",
         Title = "Проект API",
