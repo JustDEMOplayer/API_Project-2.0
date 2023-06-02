@@ -17,7 +17,7 @@
         public decimal Balance { get; set; }
         public string Role { get; set; } = null!;
         public DateTime? Birthday { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime? IsDeleteted { get; set; }
 
         public virtual ICollection<Cart> Carts { get; set; }
